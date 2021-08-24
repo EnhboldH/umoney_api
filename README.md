@@ -1,10 +1,9 @@
 ### umoney_api
  U-Money -ийн автобусны чиглэл харах API 
 
-| API        | Description           | Auth  | METHOD | CORS |
-| ------------- |:-------------:| -----:|
-|   https://api.u-money.mn/travel/bus_line_detail/11400020/start  | Автобусны кодыг [эндээс](info.json) хараарай  | No | POST | Unchecked |
-
+| API                                                          | Description                                  | Auth | Method | CORS      |
+|--------------------------------------------------------------|----------------------------------------------|------|--------|-----------|
+| https://api.u-money.mn/travel/bus_line_detail/11400020/start | Автобусны кодыг [эндээс](info.json) хараарай | No   | POST   | Unchecked |
 
 ### Жишээ код 
 ```python 
@@ -363,4 +362,8 @@ if __name__ == "__main__":
 </details>
 
 
-
+### To do
+- [x] Автобус хайх
+- [] Буудал хайх
+- [] Хот хооронд чиглэл хайх
+- [] Нислэг хайх 
